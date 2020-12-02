@@ -3,7 +3,21 @@ config.txt
 venv2/
 data.db
 
+# Vim Autosave Ignores
+*.sw[a-z]
+
+# Vim Session Files
+*.vim
+
+# Test tokens
+bot_token
+
+# Batch files and Scripting executaables
+run_test.bat
+
+
 # --General Python Ignores--
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -15,6 +29,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+Scripts/
 build/
 develop-eggs/
 dist/
